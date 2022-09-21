@@ -1,10 +1,3 @@
-import adapterDS.NewHelloAdapter;
-import adapterDS.NewObject;
-import adapterDS.OldHello;
-import adapterDS.OldObject;
-import singletonDS.early.StudentSingletonEarly;
-import singletonDS.lazy.StudentSingletonLazy;
-
 public class Main {
     public static void main(String[] args) {
         //PrototypeDS
