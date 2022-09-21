@@ -1,3 +1,7 @@
+import adapterDS.NewHelloAdapter;
+import adapterDS.NewObject;
+import adapterDS.OldHello;
+import adapterDS.OldObject;
 import singletonDS.early.StudentSingletonEarly;
 import singletonDS.lazy.StudentSingletonLazy;
 
@@ -30,12 +34,15 @@ public class Main {
 //        plants.type();
 //        plants1.type();
         //Singleton
-        System.out.println(StudentSingletonEarly.getStudentSingletonEarly());
-        System.out.println(StudentSingletonEarly.getStudentSingletonEarly());
-        System.out.println(StudentSingletonEarly.getStudentSingletonEarly());
-        System.out.println(StudentSingletonLazy.getStudentSingletonLazy());
-        System.out.println(StudentSingletonLazy.getStudentSingletonLazy());
-        System.out.println(StudentSingletonLazy.getStudentSingletonLazy());
-
+//        System.out.println(StudentSingletonEarly.getStudentSingletonEarly());
+//        System.out.println(StudentSingletonEarly.getStudentSingletonEarly());
+//        System.out.println(StudentSingletonEarly.getStudentSingletonEarly());
+//        System.out.println(StudentSingletonLazy.getStudentSingletonLazy());
+//        System.out.println(StudentSingletonLazy.getStudentSingletonLazy());
+//        System.out.println(StudentSingletonLazy.getStudentSingletonLazy());
+        //Adapter
+//        OldObject oldObject = new OldHello();
+//        NewObject newObject = new NewHelloAdapter(oldObject);
+//        newObject.sayXinchao("12asd121");
     }
 }
