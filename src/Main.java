@@ -1,3 +1,5 @@
+import structural.bridgeDS.*;
+
 public class Main {
     public static void main(String[] args) {
         //PrototypeDS
@@ -37,5 +39,10 @@ public class Main {
 //        OldObject oldObject = new OldHello();
 //        NewObject newObject = new NewHelloAdapter(oldObject);
 //        newObject.sayXinchao("12asd121");
+        //Bridge
+//        Computer computer = new Desktop(new DecorTypeOne("vang","viet nam"));
+//        computer.run();
+//        Computer computer1 = new Laptop(new DecorTypeTwo("do","my"));
+//        computer1.run();
     }
 }
